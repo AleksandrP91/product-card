@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Monzerate", sans-serif;
+}
+
+.heading {
+    font-size: 36px;
+    font-weight: 700;
+    color: #666;
+    margin: 30px auto;
+    text-align: center;
+}
+
+hr {
+    width: 100%;
+    opacity: .4;
+}
+
+button.button-top {
+    margin: 5px;
+    width: 140px;
+    height: 40px;
+    display: block;
+    border: 1px solid #666;
+    border-radius: 6px;
+    color: #666;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #fff;
+    outline: none;
+}
+
+button.button-top:hover {
+    color: #fff;
+    background-color: #666;
+    cursor: pointer;
+    transition: .4s;
+}
+
+button.button-bottom {
+    margin: 5px;
+    width: 140px;
+    height: 40px;
+    display: block;
+    border: 1px solid #666;
+    border-radius: 6px;
+    color: #666;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #fff;
+    outline: none;
+}
+
+button.button-bottom:hover {
+    color: #fff;
+    background-color: #666;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+}
+
+.wrap {
+    max-width: 1280px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.product-card {
+    padding: 14px;
+    margin: 10px;
+    flex: 1 0 30%;
+    width: 160px;
+    min-height: 320px;
+    border: 1px solid rgba(102, 102, 102, .3);
+    border-radius: 8px;
+}
+
+.product-img_one {
+    margin: 10px auto;
+    background: url(./img/img1.jpg) center center/cover no-repeat;
+    width: 210px;
+    height: 180px;
+    border-radius: 4px;
+}
+.product-img_two {
+    margin: 10px auto;
+    background: url(./img/img2.jpg) center center/cover no-repeat;
+    width: 210px;
+    height: 180px;
+    border-radius: 4px;
+}
+.product-img_three {
+    margin: 10px auto;
+    background: url(./img/img3.jpg) center center/cover no-repeat;
+    width: 210px;
+    height: 180px;
+    border-radius: 4px;
+}
+.product-img_four {
+    margin: 10px auto;
+    background: url(./img/img4.jpg) center center/cover no-repeat;
+    width: 210px;
+    height: 180px;
+    border-radius: 4px;
+}
+.product-img_fife {
+    margin: 10px auto;
+    background: url(./img/img5.jpg) center center/cover no-repeat;
+    width: 210px;
+    height: 180px;
+    border-radius: 4px;
+}
+.product-img_six {
+    margin: 10px auto;
+    background: url(./img/img6.jpg) center center/cover no-repeat;
+    width: 210px;
+    height: 180px;
+    border-radius: 4px;
+}
+
+.product-title {
+    color: #666;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-price {
+    color: #666;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+}
+
+button.product-button {
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin: 20px auto 0;
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: rgb(11, 220, 235);
+    outline: none;
+}
+
+button.product-button:hover {
+    color: #fff;
+    background-color: #ff0000;
+    cursor: pointer;
+    transition: .4s;
+}
